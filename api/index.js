@@ -22,7 +22,7 @@ main()
         console.log(err);
     });
 async function main() {
-    await mongoose.connect(process.env.MONGO);
+    await mongoose.connect(process.env.MONGOURI);
 };
 
 
